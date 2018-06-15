@@ -1,0 +1,132 @@
+/* CSS Document */
+body{
+    background:#669999;
+}
+*{
+    padding:0;
+    margin:0;
+}
+table{
+    border-collapse:collapse;
+    width:100%;
+    background-color:#FC6;
+    border:1px solid #F00;
+}
+textarea{
+    width:100%;	
+    resize:auto;	
+}
+table tr td{
+    color:#000;
+    font-size:18px;
+    text-align: center;
+    padding:5px;
+}
+input{
+    width:100%;
+    height:20px;
+}
+.submit{
+    width: 100px;
+    height: 30px; 
+    align-content: center;
+}
+.wrapper{
+    width:1000px;
+    height:auto;	
+    margin:auto;
+}
+.header{
+    width: auto;
+    text-align: center;
+    /*background-color: #0066ff;*/
+    color: white;
+    font: bold 100px/1 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+    margin: 20px 60px;	
+}
+.menu{
+    width:100%;
+    height:40px;	
+    margin-top:2px;
+    background:#F90;	
+}
+.menu ul{
+    width:100%;
+    height: 40px;
+    list-style:none;
+}
+.menu ul li{
+    width:155px;
+    text-align:center;
+    float:left;
+    line-height:40px;	
+}
+.menu ul li a{
+    display:block;
+    color:#900;
+    text-decoration:none;
+    font-size:18px;
+}
+.menu li:hover{
+    background:#CCC;
+}
+
+.content{
+    width:100%;
+    height:auto;	
+    margin-top:20px;
+
+}
+.box_contains{
+    width:90%;
+    height:auto;	
+    margin:auto;
+}
+.clear{
+    clear:both;
+}
+.button_them{
+    width:200px;
+    height:40px;
+    border:1px solid #000;
+    text-align:center;
+    background:#069;
+    line-height:40px;
+    color:#fff;
+    float:right;
+}
+.button_them a{
+    color:#fff;
+    display:block;
+    text-decoration:none;
+}
+.trang{
+    width:auto;
+    height:30px;	
+    font-size:25px;
+    padding-left:10px;
+    color:#000;
+    margin-top:2px;
+    background:#F90;
+}
+#timkiem{
+    width:200px;
+    height:27px;
+    border:1px solid #CCC;
+    margin-top:2px;
+}
+#button_timkiem{
+    width:100px;
+    height:30px;
+    background:blue;
+    color:#fff;
+    font-size:15px;
+}
+.footer{
+    width:100%;
+    text-align:center;
+    line-height:80px;
+    font-size:20px;
+    color:#fff;
+}

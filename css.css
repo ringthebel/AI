@@ -1,0 +1,411 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.clear{
+    clear:both;
+}
+
+body {
+    background: #f2f2f2;
+    font-size: 14px;
+    font-family: "Roboto","segoe ui",Helvetica,Arial,sans-serif;
+}
+
+.wrapper{
+    width:1000px;
+    margin:auto;	
+}
+
+header {
+    background: #000;
+    width: 100%;
+    height: 50px;
+}
+header #logo {
+    float: left;
+    width: 200px;
+    height: 50px;
+}
+
+#mySearch{
+    float: left;
+    margin-top: 10px; 
+}
+#mySearch #searchBox {
+    background: #fff;
+    height: 30px;
+}
+#mySearch #hsearchinput {
+    height: 30px;
+    width: 330px;
+    border: none;
+    font-size: 16px;
+}
+input{
+    vertical-align: middle;
+}
+#account ul{
+    height: 50px;
+    list-style-type: none;
+}
+#account ul li{
+    margin-left: 30px; 
+    display: inline;
+    float: right;
+}
+#account ul li a{
+    line-height: 50px;
+    text-decoration: none;
+    color: #fff;
+}
+#account ul li a:hover{
+    text-decoration: underline;
+}
+
+nav {
+    width: 100%;
+    background: #e4e4e4;
+    height: 40px;
+}
+nav .wrapper ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+nav .wrapper ul li{
+    float: left;
+    width: 166.5px;
+}
+nav .wrapper ul li:hover{
+    background-color: #fff;
+}
+nav .wrapper ul li a{
+    color: #333;
+    line-height: 40px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
+nav .wrapper ul li a:hover{
+    color: #993399
+}
+nav .wrapper ul .separation {
+    width: 1px;
+    height: 20px;
+    margin-top: 10px;
+    background: #ccc;
+}
+.icon{
+    width: 40px; 
+    vertical-align: bottom;
+}
+.sub_menu{
+    position: absolute;
+    background-color: #fff;
+    width: 499.5px;
+    display: none;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    border: 1px solid #dcdcdc;
+}
+#loaigiay{
+    font-family: Monospace;
+    text-align: left;
+    padding-left: 20px;
+}
+#loaigiay:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+.main_page{
+    width:1000px;
+    margin:auto;
+    background: #fff;
+    min-height: 500px;
+    overflow: hidden;
+}
+.show{
+    list-style-type: none;
+    margin-top: 30px;
+}
+.show li{
+    border: 1px solid #efefef;
+    margin: 2px 10px;
+    padding: 3px;
+    width: 220px;
+    float: left;
+}
+.show li:hover{
+    background-color: #000;
+}
+.show li a{
+    text-decoration: none;
+    display: block;
+    padding-left: 25px;
+    color: #000;
+    line-height: 50px;
+}
+.show li a:hover{
+    color: #fff;
+}
+
+.loi{
+    text-align:center;
+    width:1000px;
+    margin:auto;
+    height:80px;
+    background:red;
+    color:#fff;
+    font-size:20px;
+    line-height: 80px;
+}
+
+.centerBoxHeading {
+    color: #000;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    border-top: 2px solid #666;
+    border-bottom: 2px solid #666;
+}
+/*Hien thi san pham*/
+#sanpham {
+    width: 222px;
+    height: 260px;
+    margin: 30px 13px;
+    float: left;
+    text-align: center;
+    vertical-align: top;
+    overflow: hidden;
+    box-shadow: 1px 1px 8px rgba(0 ,0 ,0 ,0.3);
+    border: 1px solid #dcdcdc;
+}
+#anhsp{
+    height: 148px;
+}
+#tensp{
+    margin-top: 30px;
+    height: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+#tensp a{
+    text-decoration: none;
+}
+#tensp a:hover{
+    color: green;
+}
+#price{
+    text-align: center;
+}
+
+/*Tin tuc*/
+#tintuc {
+    padding: 30px 50px;
+    list-style: circle;	
+}
+#tintuc li a{
+    font-size: 18px;
+}
+
+/* Chi tiet san pham*/
+#box_hinhanh{
+    width:500px;
+    height:460px;
+    text-align: center;
+    float:left;
+}
+#hinhanhdikem{
+    margin: 20px 5px;
+    width:100%;
+    list-style:none;
+    text-align: center;
+}
+#hinhanhdikem li{
+    height:70px;
+    float:left;
+    margin-left: 9px;
+    border:1px solid #CCC;
+}
+#box_info{
+    width: 460px;
+    margin: 0 20px 20px 20px;
+    height: 440px;
+    float:right;
+}
+#box_info table{
+    height: 300px;
+    margin-bottom: 10px;
+}
+*:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.radio input[type="radio"] {
+    display: none;
+}
+.radio label {
+    display: inline-block;
+    padding: 5px;
+    cursor: pointer;
+    border: 2px solid #ccc;
+    margin-bottom: 0;
+    position: relative;
+}
+.radio input[type="radio"]:checked+label, .radio input[type="radio"]+label:hover {
+    border: 2px solid #e5101d;
+}
+.radio input[type="radio"]:checked+label::after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-bottom: 18px solid #e5101d;
+    border-left: 18px solid transparent;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+.radio input[type="radio"]:checked+label::before {
+    position: absolute;
+    display: block;
+    content: '\2714';
+    right: 0;
+    bottom: 0;
+    font-family: fontawesome;
+    font-size: 9px;
+    color: #fff;
+    z-index: 2;
+}
+
+.mota{
+    width: 800px; 
+    margin: auto; 
+    padding: 20px;
+}
+
+/*Tiep tuc mua hang*/
+.main_page #continue_shopping{
+    float: right;
+    margin: 20px;
+}
+.main_page #continue_shopping a{
+    text-decoration: none;
+    color: blue;
+}
+.main_page #continue_shopping a:hover{
+    text-decoration: underline;
+}
+
+.thanh_toan{
+    width:200px;
+    height:40px;
+    margin:20px;
+    text-align:center;
+    background:#0286cd;
+    line-height:40px;
+    float:left;
+}
+.thanh_toan a{
+    color:#fff;
+    display:block;
+    text-decoration:none;
+}
+
+#luu{
+    width:300px;
+    height:40px;
+    background:#009933;
+    line-height:40px;
+    float:left;
+}
+#luu input{
+    cursor: pointer;
+    color: #fff;
+    background-color: #009933;
+    border: none;
+    width: 300px;
+    height: 40px;
+}
+
+.box{
+    width: 47%;
+    margin-bottom: 20px;
+}
+.box input{
+    margin: 10px 0;
+    padding: 5px 0;
+    font-size: 15px;
+}
+.boxLeft{
+    float: left;
+}
+.boxRight{
+    float: right;
+}
+.account{
+    margin: auto;
+}
+.log{
+    padding: 20px 50px;
+}
+.log p{
+    text-align: center;
+    color: red;
+    margin-bottom: 20px;
+}
+.log input{
+    width: 100%;
+}
+.submit{
+    width:200px;
+    margin: 40px auto;
+}
+.submit input{
+    color: #fff;
+    background-color: #ff9933;
+    width: 200px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+}
+
+#trang{
+    padding: 0 10px;
+    height: 30px;
+    float: right;	
+}
+
+footer {
+    background: #222428;
+    overflow: hidden;
+    color: #fff;
+    position: relative;
+}
+#copyright{
+    width: 350px;
+    margin: 20px 10px;
+    float: left;
+}
+#diachi{
+    width: 420px;
+    margin: 20px 0;
+    float: right;
+}
+#fanpage{
+    width: 190px;
+    padding: 15px 0;
+    float: right;
+}
+#fanpage ul{
+    list-style-type: none;
+}
+#fanpage ul li{
+    display: inline-table;
+    width: 60px;
+}
+#fanpage ul li a img{
+    width: 50px;
+}
